@@ -85,7 +85,7 @@ li {
 
 .landing-main {
   background: white url("images/logo.jpg") no-repeat center center fixed;
-  background-size: 800px 800px;
+  background-size: contain;
   color: #222;
 }
 
