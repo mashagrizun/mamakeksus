@@ -38,18 +38,27 @@ li {
   background: rgba(0,0,0,0.5);
 }
 
-.header-link {
+.header-link-insta {
+  background: url("images/instagram.png");
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
   margin: 1rem;
-  border-bottom: 3px solid #F6D4F7;
-  font-size: 1.2rem;
-  color: #222;
-  text-decoration: none;
-  color: #ddd;
+}
+
+.header-link-viber {
+  background: url("images/viber.png");
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  margin: 1rem;
 }
 
 .header-text {
-  margin: 1rem;
-  font-size: 1.2rem;
+  margin: 1.5rem;
+  font-size: 1rem;
   color: #ddd;
 }
 
