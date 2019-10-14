@@ -78,14 +78,14 @@ li {
   color: #F6D4F7;
 }
 .brand-text {
-  font-size: 1;
+  font-size: 1.2rem;
   font-family: "Helvetica";
   width: 40vw;
   /*color: #F6D4F7;*/
 }
 @media screen and (max-width: 481px) {
     .brand-text {
-    font-size: 0.5;
+    font-size: 0.5rem;
     font-family: "Helvetica";
     width: 100vw;
     /*color: #F6D4F7;*/
@@ -133,12 +133,23 @@ li {
 .landing-main-body {
   background: rgba(255,255,255,1.0);
 }
+
+
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
   float: left;
-  width: 33.3%;
+  width: 50.%;
   padding: 5px;
   background: rgba(255,255,255,1.0)
+}
+
+@media screen and (max-width: 481px) {
+    .column {
+      float: left;
+      width: 100%;
+      padding: 5px;
+      background: rgba(255,255,255,1.0)
+    }
 }
 
 /* Clear floats after image containers */
