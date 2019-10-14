@@ -77,13 +77,21 @@ li {
   margin: 0;
   color: #F6D4F7;
 }
-
 .brand-text {
   font-size: 1;
   font-family: "Helvetica";
   width: 40vw;
   /*color: #F6D4F7;*/
 }
+@media screen and (max-width: 481px) {
+    .brand-text {
+    font-size: 0.5;
+    font-family: "Helvetica";
+    width: 100vw;
+    /*color: #F6D4F7;*/
+  }
+}
+
 
 .landing-section {
   min-height: 100vh;
