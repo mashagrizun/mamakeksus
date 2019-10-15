@@ -141,7 +141,10 @@ li {
 .landing-main-body {
   background: rgba(255,255,255,1.0);
 }
-
+@media screen and (min-width: 500px) {
+  .row {
+  display: flex;
+}
 
 /* Three image containers (use 25% for four, and 50% for two, etc) */
 .column {
@@ -151,7 +154,7 @@ li {
   background: rgba(255,255,255,1.0)
 }
 
-@media screen and (max-width: 481px) {
+@media screen and (max-width: 500px) {
     .column {
       width: 100%;
       background: rgba(255,255,255,1.0)
