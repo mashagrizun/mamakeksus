@@ -115,21 +115,21 @@ li {
 }
 
 .landing-main {
-  background: white url("images/logo.jpg") no-repeat center center fixed;
+  /*background: white url("images/logo.jpg") no-repeat center center fixed;
   background-size: contain;
-  color: #222;
+  */color: #222;
 }
 
-@media screen and (max-width: 500px){
+/*@media screen and (max-width: 500px){
   .landing-main {
     background: white url("images/00.jpg") no-repeat center center fixed;
     background-size: contain;
     color: #222;
-  }
+  }*/
 /*  body.custom-background {
     background-attachment: scroll;
   }*/
-}
+/*}*/
 @media (max-width: 767px)
 .elementor:not(.elementor-edit-area-active) .elementor-hidden-phone {
     display: block !important;
