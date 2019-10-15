@@ -120,13 +120,16 @@ li {
   color: #222;
 }
 
-/*@media screen and (max-width: 500px){
+@media screen and (max-width: 500px){
   .landing-main {
     background: white url("images/00.jpg") no-repeat center center fixed;
     background-size: contain;
     color: #222;
   }
-}*/
+  body.custom-background {
+    background-attachment: scroll;
+  }
+}
 
 .landing-section-body {
   min-height: 100vh;
