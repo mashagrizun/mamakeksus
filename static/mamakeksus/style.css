@@ -158,45 +158,47 @@ li {
 .landing-main-body {
   background: rgba(255,255,255,1.0);
 }
+
 @media screen and (min-width: 500px) {
   .row {
-  display: flex;
-}
+    display: flex;
+  }
 
-/* Three image containers (use 25% for four, and 50% for two, etc) */
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-  background: rgba(255,255,255,1.0)
-}
+  /* Three image containers (use 25% for four, and 50% for two, etc) */
+  .column {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    background: rgba(255, 255, 255, 1.0)
+  }
 
-@media screen and (max-width: 500px) {
+  @media screen and (max-width: 500px) {
     .column {
       width: 100%;
-      background: rgba(255,255,255,1.0)
+      background: rgba(255, 255, 255, 1.0)
     }
-}
+  }
 
-/* Clear floats after image containers */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-  background: rgba(255,255,255,0.1);
-}
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+    background: rgba(255, 255, 255, 0.1);
+  }
 
-.landing-main-text {
-  padding: 1rem;
-}
+  .landing-main-text {
+    padding: 1rem;
+  }
 
-.langing-features {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
+  .langing-features {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 
-.landing-feature {
-  margin: 2rem;
-  min-width: 300px;
+  .landing-feature {
+    margin: 2rem;
+    min-width: 300px;
+  }
 }
