@@ -113,6 +113,16 @@ li {
   flex-direction: column;
   color: #ddd;
 }
+.landing-section-content-2 {
+  padding: 1rem 0;
+  background: rgba(0,0,0,0.2);
+  width: 20vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #222;
+}
 
 .landing-main {
   /*background: white url("images/logo.jpg") no-repeat center center fixed;
@@ -130,10 +140,10 @@ li {
     background-attachment: scroll;
   }*/
 /*}*/
-@media (max-width: 767px)
-.elementor:not(.elementor-edit-area-active) .elementor-hidden-phone {
-    display: block !important;
-}
+/*@media (max-width: 767px){*/
+  /*.elementor:not(.elementor-edit-area-active) .elementor-hidden-phone {*/
+    /*display: block !important;*/
+/*}*/
 
 .landing-section-body {
   min-height: 100vh;
