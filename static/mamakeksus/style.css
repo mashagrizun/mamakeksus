@@ -130,7 +130,7 @@ li {
 
 .landing-main {
   /*style="background-image: url(static/mamakeksus/images/logo.jpg); background-repeat: no-repeat; background-position: center; background-color: white; background-size: contain;">*/
-  background: white url("images/logo_alpha.jpg") no-repeat center center fixed;
+  background: white url("images/logo_alpha.jpg") no-repeat center center;
   background-size: contain;
 }
 
