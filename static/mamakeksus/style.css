@@ -1,7 +1,7 @@
 body {
   color: #ddd;
   background: #222;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-family: 'Poiret One', cursive;
   padding: 0;
   margin: 0;
 }
@@ -35,7 +35,7 @@ li {
   left: 0;
   position: absolute;
 
-  background: rgba(0,0,0,0.5);
+  background: rgba(219,191,246, 0.3);
 }
 
 .header-link-insta {
@@ -58,8 +58,8 @@ li {
 
 .header-text {
   margin: 1.5rem;
-  font-size: 1rem;
-  color: #ddd;
+  font-size: 1.2rem;
+  color: #6D5F7B;
 }
 
 .bottom {
@@ -70,7 +70,7 @@ li {
   left: 0;
   /*position: absolute;*/
 
-  background: rgba(0,0,0,0.5);
+  background: rgba(219,191,246, 0.3);
 }
 
 .brand {
@@ -78,15 +78,15 @@ li {
   color: #F6D4F7;
 }
 .brand-text {
-  font-size: 1.2rem;
-  font-family: "Helvetica";
+  font-size: 1.6rem;
+  font-family: 'Poiret One', cursive;
   width: 40vw;
-  /*color: #F6D4F7;*/
+  color: #521987;
 }
 @media screen and (max-width: 481px) {
     .brand-text {
       font-size: 1rem;
-      font-family: "Helvetica";
+      font-family: 'Poiret One', cursive;
       width: 100vw;
       /*color: #F6D4F7;*/
   }
@@ -104,30 +104,34 @@ li {
 }
 
 .landing-section-content {
-  padding: 2rem 0;
-  background: rgba(0,0,0,0.3);
-  width: 100vw;
+  padding: 0 0;
+  background: rgba(219,191,246, 0.8);
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   color: #ddd;
 }
-.landing-section-content-2 {
-  padding: 1rem 0;
-  background: rgba(0,0,0,0.2);
-  width: 100vw;
+
+.catalog{
+  padding: 0 0;
+  margin-bottom: 1rem;
+  background: rgba(219,191,246, 0.8);
+  width: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #222;
+  color: #ddd;
+  border: 1px;
+  border-radius: 15px;
 }
 
 .landing-main {
-  /*background: white url("images/logo.jpg") no-repeat center center fixed;
+  /*style="background-image: url(static/mamakeksus/images/logo.jpg); background-repeat: no-repeat; background-position: center; background-color: white; background-size: contain;">*/
+  background: white url("images/logo_alpha.jpg") no-repeat center center fixed;
   background-size: contain;
-  */color: #222;
 }
 
 /*@media screen and (max-width: 500px){
