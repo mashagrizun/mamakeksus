@@ -115,17 +115,49 @@ li {
 }
 
 .catalog{
-  padding: 0 0;
+  font-size: 1.6rem;
+  font-family: 'Poiret One', cursive;
+
+  color: #521987;
+
+  padding: 1.2rem 0;
   margin-bottom: 1rem;
   background: rgba(219,191,246, 0.8);
-  width: 40%;
+  width: 25%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  color: #ddd;
+
   border: 1px;
   border-radius: 15px;
+}
+@media screen and (max-width: 300px) {
+    .catalog {
+      width: 100%;
+  }
+}
+
+.catalog-text{
+  font-size: 1rem;
+  font-family: 'Poiret One', cursive;
+
+  color: #521987;
+
+  background: rgba(219,191,246, 0);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  border: 1px;
+  border-radius: 15px;
+}
+@media screen and (max-width: 300px) {
+    .catalog-text {
+      width: 100%;
+  }
 }
 
 .landing-main {
