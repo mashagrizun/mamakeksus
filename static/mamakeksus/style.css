@@ -132,9 +132,9 @@ li {
   border: 1px;
   border-radius: 15px;
 }
-@media screen and (max-width: 300px) {
+@media screen and (max-width: 600px) {
     .catalog {
-      width: 100%;
+      width: 50%;
   }
 }
 
@@ -153,11 +153,6 @@ li {
 
   border: 1px;
   border-radius: 15px;
-}
-@media screen and (max-width: 300px) {
-    .catalog-text {
-      width: 100%;
-  }
 }
 
 .landing-main {
