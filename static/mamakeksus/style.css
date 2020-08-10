@@ -35,7 +35,7 @@ li {
   left: 0;
   position: absolute;
 
-  background: rgba(219,191,246, 0.3);
+  /* background: rgba(219,191,246, 0.3); */
 }
 
 .header-link-insta {
@@ -44,7 +44,7 @@ li {
   width: 35px;
   height: 35px;
   background-size: contain;
-  margin: 1rem;
+  /* margin: 0.8rem; */
 }
 
 .header-link-viber {
@@ -53,11 +53,29 @@ li {
   width: 35px;
   height: 35px;
   background-size: contain;
-  margin: 1rem;
+  margin-left: 0.8rem;
+}
+
+.footer-link-insta {
+    background: url("images/instagram.png");
+    display: block;
+    width: 35px;
+    height: 35px;
+    background-size: contain;
+    margin: 0.8rem;
+}
+
+.footer-link-viber {
+  background: url("images/viber.png");
+  display: block;
+  width: 35px;
+  height: 35px;
+  background-size: contain;
+  margin: 0.8rem;
 }
 
 .header-text {
-  margin: 1.5rem;
+  margin: 1rem;
   font-size: 1.2rem;
   color: #6D5F7B;
 }
@@ -160,21 +178,6 @@ li {
   background: white url("images/logo_alpha.jpg") no-repeat center center;
   background-size: contain;
 }
-
-/*@media screen and (max-width: 500px){
-  .landing-main {
-    background: white url("images/00.jpg") no-repeat center center fixed;
-    background-size: contain;
-    color: #222;
-  }*/
-/*  body.custom-background {
-    background-attachment: scroll;
-  }*/
-/*}*/
-/*@media (max-width: 767px){*/
-  /*.elementor:not(.elementor-edit-area-active) .elementor-hidden-phone {*/
-    /*display: block !important;*/
-/*}*/
 
 .landing-section-body {
   min-height: 100vh;
